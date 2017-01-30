@@ -1,0 +1,139 @@
+body{
+	margin:0; 
+	padding:0; 
+	height:100%; 
+	width:100%; 
+	font-family: 'Raleway', sans-serif;
+}
+
+.bcg{
+	background: #536dfe;
+	position: absolute;
+	height:100%;
+  	width:100%;
+  	overflow:hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+.title{
+	color: white;
+	font-weight: 100;
+	margin-top: 200px;
+	margin-left: 150px ;
+	
+}
+
+
+.rw-wrapper{
+	
+
+    
+    font-size: 30px;
+	margin-left: 35px;
+	width: 80%;
+	position: relative;
+	
+}
+
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+	color: white;
+}
+
+.rw-words-1 span{
+	animation: rotateWordsFirst 15s linear infinite 0s;
+}
+.rw-words-2 span{
+	animation: rotateWordsSecond 15s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+	color: white;
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+	color: white;	
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 9s; 
+	color: white;
+}
+.rw-words span:nth-child(5) { 
+	animation-delay: 12s; 
+	color: white;
+}
+
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+@keyframes rotateWordsSecond {
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    10% { opacity: 0.3; width: 0px; }
+	20% { opacity: 1; width: 100%; }
+    27% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+
+/*.down-icon{
+	margin-left: 50%;
+}
+
+.glyphicon.glyphicon-menu-down{
+ 	font-size: 30px;
+}*/
+
+.construction{
+	margin: 220px;
+	margin-left: 0px;
+	text-align: center;
+	
+}
+
+.navbar{
+	padding:0px;
+	margin: 0px;
+}
+
+.navbar-brand{
+	
+	color: white;
+	margin-right: 15px;
+}
+
+.title-head{
+	
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+.me{
+	
+	margin-top: 50px;	
+	margin-left:37%;
+	color: white;
+	
+	width: 400px;
+
+}
+
+
+.link{
+	color: white;
+	text-decoration: underline;
+}
